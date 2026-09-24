@@ -182,10 +182,10 @@ T21 → T22
 
 **Done when**:
 
-- [ ] Tokens match the design: primary `#2C7A7F`, accent `#4FD1C5`, ink `#2C3E50`, surface `#E6FFFA`, danger `#FF3B30`, canvas `#FFFFFF`
-- [ ] Space steps are 4, 8, 16, 24, 32. Radius is 12 on controls and 16 on cards. Border is 1px `#D5E8E6`
-- [ ] The same values apply in light and dark
-- [ ] Gate check passes: `bun run lint && bunx tsc --noEmit && bunx jest`
+- [x] Tokens match the design: primary `#2C7A7F`, accent `#4FD1C5`, ink `#2C3E50`, surface `#E6FFFA`, danger `#FF3B30`, canvas `#FFFFFF`
+- [x] Space steps are 4, 8, 16, 24, 32. Radius is 12 on controls and 16 on cards. Border is 1px `#D5E8E6`
+- [x] The same values apply in light and dark
+- [x] Gate check passes: `bun run lint && bunx tsc --noEmit && bunx jest`
 
 **Tests**: none
 **Gate**: build
