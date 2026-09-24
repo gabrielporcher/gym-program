@@ -295,10 +295,10 @@ T21 → T22
 
 **Done when**:
 
-- [ ] `enqueue` stores `table`, `rowId`, and `payload` for `programs`, `program_day_exercises`, `sessions`, `set_logs`, and `rest_preferences`
-- [ ] The catalog is not an outbox table
-- [ ] Integration tests in `src/lib/sync.integration.test.ts` cover one enqueue and a rejected table. Test count: 2
-- [ ] Gate check passes: `bunx jest`
+- [x] `enqueue` stores `table`, `rowId`, and `payload` for `programs`, `program_day_exercises`, `sessions`, `set_logs`, and `rest_preferences`
+- [x] The catalog is not an outbox table
+- [x] Integration tests in `src/lib/sync.integration.test.ts` cover one enqueue and a rejected table. Test count: 2
+- [x] Gate check passes: `bunx jest`
 
 **Tests**: integration
 **Gate**: full
