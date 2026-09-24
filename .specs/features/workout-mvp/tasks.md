@@ -209,9 +209,9 @@ T21 → T22
 
 **Done when**:
 
-- [ ] `getDatabase` and `migrate` create `programs`, `program_day_exercises`, `sessions`, `set_logs`, `rest_preferences`, `exercises`, and `outbox`
-- [ ] Integration tests in `src/lib/db.integration.test.ts` assert those tables exist. Test count: 1
-- [ ] Gate check passes: `bunx jest`
+- [x] `getDatabase` and `migrate` create `programs`, `program_day_exercises`, `sessions`, `set_logs`, `rest_preferences`, `exercises`, and `outbox`
+- [x] Integration tests in `src/lib/db.integration.test.ts` assert those tables exist. Test count: 1
+- [x] Gate check passes: `bunx jest`
 
 **Tests**: integration
 **Gate**: full
