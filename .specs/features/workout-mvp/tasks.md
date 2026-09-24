@@ -237,12 +237,12 @@ T21 → T22
 
 **Done when**:
 
-- [ ] `listExercises` and `getExercise` return only the seeded catalog
-- [ ] `bench-press` includes chest emphasis 5, triceps emphasis 3, and shoulder emphasis 4
-- [ ] Emphasis values are integers from 1 to 5, role is `agonist` or `synergist`
-- [ ] The same ids are the ones a Supabase seed would use
-- [ ] Integration tests in `src/lib/db.integration.test.ts` cover the bench-press row and a list that contains only seed rows. Test count: 3
-- [ ] Gate check passes: `bunx jest`
+- [x] `listExercises` and `getExercise` return only the seeded catalog
+- [x] `bench-press` includes chest emphasis 5, triceps emphasis 3, and shoulder emphasis 4
+- [x] Emphasis values are integers from 1 to 5, role is `agonist` or `synergist`
+- [x] The same ids are the ones a Supabase seed would use
+- [x] Integration tests in `src/lib/db.integration.test.ts` cover the bench-press row and a list that contains only seed rows. Test count: 3
+- [x] Gate check passes: `bunx jest`
 
 **Tests**: integration
 **Gate**: full
