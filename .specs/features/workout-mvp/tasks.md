@@ -266,12 +266,12 @@ T21 → T22
 
 **Done when**:
 
-- [ ] `listTemplates` returns ABC, ABCDE, ABC 2x, PPL, and full body
-- [ ] ABC 2x exposes A1, B1, C1, A2, B2, C2
-- [ ] `suggestedDay` follows the design map, including Monday A for ABCDE and Monday/Wednesday/Friday for full body
-- [ ] Saturday and Sunday return null for ABCDE and full body. ABC 2x and PPL still suggest a day on Saturday. Sunday is null for every template
-- [ ] Unit tests in `src/lib/workout.test.ts` cover each template and the unmapped weekend. Test count: 6
-- [ ] Gate check passes: `bunx jest`
+- [x] `listTemplates` returns ABC, ABCDE, ABC 2x, PPL, and full body
+- [x] ABC 2x exposes A1, B1, C1, A2, B2, C2
+- [x] `suggestedDay` follows the design map, including Monday A for ABCDE and Monday/Wednesday/Friday for full body
+- [x] Saturday and Sunday return null for ABCDE and full body. ABC 2x and PPL still suggest a day on Saturday. Sunday is null for every template
+- [x] Unit tests in `src/lib/workout.test.ts` cover each template and the unmapped weekend. Test count: 6
+- [x] Gate check passes: `bunx jest`
 
 **Tests**: unit
 **Gate**: quick
