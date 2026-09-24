@@ -157,8 +157,8 @@ T21 → T22
 
 **Done when**:
 
-- [ ] `bunx jest` exits 0 with no test files yet
-- [ ] Gate check passes: `bun run lint && bunx tsc --noEmit && bunx jest`
+- [x] `bunx jest` exits 0 with no test files yet
+- [x] Gate check passes: `bun run lint && bunx tsc --noEmit && bunx jest`
 
 **Tests**: none
 **Gate**: build
